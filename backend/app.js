@@ -206,6 +206,10 @@ app.get('/', (req, res) => {
   res.json({ message: 'ElectionAT Backend is running!', status: 'OK' });
 });
 
+app.get('/api/health', (req, res) => {
+  res.json({ message: 'ElectionAT Backend is running!', status: 'OK', timestamp: new Date() });
+});
+
 app.get('/api', (req, res) => {
   res.json({ message: 'ElectionAT API is running!', status: 'OK' });
 });

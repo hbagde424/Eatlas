@@ -1,4 +1,4 @@
-const District = require('../models/District');
+const District = require('../models/district');
 const State = require('../models/state');
 const Assembly = require('../models/Assembly');
 const Parliament = require('../models/Parliament');

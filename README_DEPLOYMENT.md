@@ -202,12 +202,19 @@ pm2 monit
 
 ## 💰 Cost Estimation
 
-| Service | Cost/Month |
-|---------|-----------|
-| EC2 t3.micro | ~$8 |
-| Data transfer | ~$1 |
-| MongoDB Atlas | $0-50 |
-| **Total** | **~$10-60** |
+### 🎉 AWS Free Tier (12 months): **$0**
+
+| Service | Free Tier | Your Usage | Cost |
+|---------|-----------|-----------|------|
+| EC2 t3.micro | 750 hrs/month | ✅ Your instance | $0 |
+| Data Transfer | 100 GB/month | ✅ ~5-10 GB | $0 |
+| MongoDB Atlas | 512 MB | ✅ ~100-200 MB | $0 |
+| **Total (12 months)** | | | **$0** |
+
+### After 12 months: ~$9/month
+- EC2: ~$8/month
+- Data transfer: ~$1/month
+- MongoDB: $0 (free tier)
 
 ## 🐛 Troubleshooting
 
